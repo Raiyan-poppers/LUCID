@@ -1,0 +1,130 @@
+@media(min-width:768px)and(min-width:1080px){
+
+}
+@media(max-width:767px){
+        .hide_dsk{
+            display: block;
+        }
+        .hide_md{
+            display: none;
+        }
+        .phone {
+            position: static;
+            width: 60%;
+            margin: 40px auto 0px;
+        }
+        .hero {
+            text-align: center;
+            flex-direction: column-reverse;
+            min-height: 80vh;
+        } 
+        .hero-content{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .device {
+        width: 60%;
+        margin: 0 auto;
+         }
+   
+        .devicetwo {
+          width: 90%;
+        }
+        .text-end {
+            text-align: center!important;
+            padding-top: 10px;
+        }
+        .pricing-section {
+            padding: 0;
+        }
+        .price-table {
+            margin: 0 10px 20px 30px;
+        }
+        .form_box {
+            width: 85%;
+        }
+        
+        .icon-details{
+            margin-bottom: 25px;
+        }
+        .client {
+            display: flex;
+            justify-content: center;
+        }
+        .ads-section h2 {
+            text-align: center;
+            font-size: 29px;
+        }
+        
+}
+@media(max-width:575px) {
+    
+    .hero-content {
+        margin-top: 45px;
+        padding-bottom: 20px;
+    }
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item{
+        padding: 10px 0 ;
+    }
+    .nav-link{
+        display: inline;
+    }
+    .contact-us .icon-details {
+        padding: 0 0 0 25px;
+    }
+    .device_padding{
+        padding: 20px 20px 0px;
+    }
+
+    .pricing-and-planing{
+        min-height: 60vh;
+    }
+    .text-end {
+        text-align: center!important;
+        margin-top: 15px;
+    }
+    
+    .title_three {
+        padding: 35px 0;
+    }
+    .form_box {
+        
+        bottom: -228px;
+        width: 80%;
+        padding: 20px 20px;
+        margin-bottom: 30px;
+    }
+    .contact-for-phone {
+        margin: 0 0 100px 0;
+    }
+}
+
+
+@media(max-width:320px){
+
+    .hero-content h1 {
+        font-size: 10px;
+    }
+    .hero-content {
+        margin-bottom: 20px;
+    }
+    .btn-download {
+        padding: 12px 13px;
+    }
+    .device {
+        width: 60%;
+    }
+    .devicetwo {
+        width: 90%;
+    }
+    .ads-section .btn-view {
+    margin-left: 0;
+    }
+    
+}
